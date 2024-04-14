@@ -7,7 +7,7 @@ import {
 export const predictReducer = (state = { status: {} }, action) => {
     switch (action.type) {
         case PREDICT_REQUEST:
-            return { loading: true, ...state}
+            return { loading: true, status: {}}
         
         case PREDICT_SUCCESS:
             return { loading: false, status: action.payload }
