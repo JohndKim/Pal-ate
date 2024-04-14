@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 
-import sys
-import tempfile
-import time
-import urllib.parse
 import requests
 
 URL_SEARX = "https://searx.ndlug.org/search"
