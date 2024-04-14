@@ -79,9 +79,6 @@ export default function HomePage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="absolute w-[306px] top-[409px] left-[543px] font-orelega text-black text-[40px] tracking-[0] leading-[normal]">
-                            Recipes:
-                        </div>
                         <div className="absolute w-[306px] top-[105px] left-[543px] font-orelega text-black text-[40px] tracking-[0] leading-[normal]">
                             Description:
                         </div>
@@ -94,9 +91,6 @@ export default function HomePage() {
                                 vegetables.
                             </p>
                         </div>
-                        <div className="w-[110px] h-[94px] top-[421px] left-[702px] rounded-[20px] absolute bg-white border-[3px] border-solid border-black" />
-                        <div className="w-[110px] h-[94px] top-[421px] left-[834px] rounded-[20px] absolute bg-white border-[3px] border-solid border-black" />
-                        <div className="w-[110px] h-[94px] top-[421px] left-[966px] rounded-[20px] absolute bg-white border-[3px] border-solid border-black" />
                     </div>
                     <div className="absolute w-[545px] h-[542px] top-[1234px] left-[133px]">
                         <div className="w-[403px] h-[403px] top-[139px] left-[142px] rounded-[201.5px] absolute bg-white border-[5px] border-solid border-black" />
