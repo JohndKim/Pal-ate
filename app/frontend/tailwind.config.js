@@ -10,6 +10,7 @@ module.exports = {
       },
       fontFamily: {
         'orelega': ['Orelega One', 'sans-serif'],
+        'plus-jakarta-sans': ['"Plus Jakarta Sans"', 'sans-serif'],
       }
     },
   },
