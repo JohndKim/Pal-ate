@@ -1,6 +1,6 @@
-from recipeLocation import get_info
-from searx import search_searx
-from wiki import search_wiki
+from .recipeLocation import get_info
+from .searx import search_searx
+from .wiki import search_wiki
 
 def get_all(food: str) -> dict:
     '''
@@ -9,7 +9,10 @@ def get_all(food: str) -> dict:
     searx = search_searx(food)
     wiki = search_wiki(food)
     recipe_location = get_info(food)
-    return {**searx, **wiki, **recipe_location}
+    name = {
+        'name': food.title()
+    }
+    return {**searx, **wiki, **recipe_location, **name}
 
 def main() -> None:
     info1 = get_all('fried chicken')

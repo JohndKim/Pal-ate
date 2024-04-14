@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-from searx import search_searx
+from .searx import search_searx
 
 URL_WIKI = "http://en.wikipedia.org/w/api.php"
 
