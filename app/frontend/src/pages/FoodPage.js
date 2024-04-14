@@ -38,7 +38,7 @@ export default function FoodPage() {
                                     <div className="absolute w-[190px] top-[120px] left-px plus-jakarta-sans font-normal text-black text-[30px] tracking-[0] leading-[normal]">
                                         history:
                                     </div>
-                                    <p className="absolute w-[592px] top-0 left-[2px] plus-jakarta-sans font-normal text-black text-[17px] tracking-[0] leading-[normal]">
+                                    <p className="absolute w-[592px] top-0 left-[2px] plus-jakarta-sans font-normal text-black text-[15px] tracking-[0] leading-[normal]">
                                         {status.intro}
                                     </p>
                                     <p className="absolute w-[592px] top-[177px] left-0 plus-jakarta-sans font-normal text-black text-[15px] tracking-[0] leading-[normal]">
