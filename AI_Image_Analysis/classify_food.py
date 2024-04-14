@@ -10,5 +10,5 @@ def query(filename):
     return response.json()
 
 # q = "./AI_Image_Analysis/input/lobster_roll.jpg"
-output = query(q)
+# output = query(q)
 # print(output)
