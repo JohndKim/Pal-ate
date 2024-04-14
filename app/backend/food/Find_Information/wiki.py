@@ -66,10 +66,11 @@ def search_wiki_info(params):
         
         parsed_content = [ i for i in content.split('\n') if i != '']
 
-        information['intro'] = parsed_content[1]
+        print(parsed_content[1].split('.')[:3])
+        information['intro'] = '.'.join(parsed_content[1].split('.')[:3])
         for index, i in enumerate(parsed_content):
             if i == '== History ==':
-                information['history'] = parsed_content[index + 1]
+                information['history'] = '.'.join(parsed_content[index + 1].split('.')[:5])
                 break
         return information
 
