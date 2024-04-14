@@ -54,7 +54,7 @@ export default function HomePage() {
                     <img className="absolute w-[429px] h-[2px] top-[2668px] left-0" alt="Line" src={line12} />
                     <p className="absolute w-[937px] top-[760px] left-[252px] [font-family:'Plus_Jakarta_Sans-SemiBold',Helvetica] font-semibold text-black text-[30px] text-center tracking-[0] leading-[normal]">
                         Pal-ate game-ifies the way people interact with food! Compete with your friends and collect all of your new
-                        furry friends! Learn about different foods’ culture, recipes, and local restaurants to buy from all with a
+                        cuddly companions! Learn about different foods’ culture, recipes, and local restaurants to buy from all with a
                         single photo!
                     </p>
 
