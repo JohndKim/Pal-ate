@@ -1,10 +1,10 @@
 import React from 'react'
-import Header1 from '../components/Header1'
+import Header2 from '../components/Header2'
 
 export default function FriendsPage() {
     return(
         <>
-            <Header1/>
+            <Header2/>
             <div className="bg-[#fff4e2] flex flex-row justify-center w-full">
                 <div className="bg-[#fff4e2] overflow-hidden w-[1440px] h-[2000px] ">
                     {/* FRIENDS HEADER */}
