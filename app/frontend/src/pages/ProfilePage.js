@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header1 from '../components/Header1'
-import Carousel from '../components/Carousel'
+import Carousel from '../components/carousel'
 
 
 export default function ProfilePage() {
