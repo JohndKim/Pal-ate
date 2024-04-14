@@ -65,8 +65,7 @@ def search_wiki_info(params):
             return {'message': 'intro and history not found'}
         
         parsed_content = [ i for i in content.split('\n') if i != '']
-
-        print(parsed_content[1].split('.')[:3])
+        
         information['intro'] = '.'.join(parsed_content[1].split('.')[:3])
         for index, i in enumerate(parsed_content):
             if i == '== History ==':

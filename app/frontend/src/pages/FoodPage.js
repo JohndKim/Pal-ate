@@ -1,10 +1,13 @@
 import React, { useEffect } from 'react'
 import Header2 from '../components/Header2'
 import { useDispatch, useSelector } from 'react-redux';
+import { foods } from '../images/food_images/food';
 
 export default function FoodPage() {
     const predictUpdate = useSelector(state => state.predictUpdate)
     const { error, loading, status } = predictUpdate
+
+    const imageUrl = foods[status.name]
 
     return (
         <>
@@ -72,8 +75,8 @@ export default function FoodPage() {
                                 <div className="text-center font-semibold">{status.recipes[2].title}</div>
                                     <div className="p-2">{status.recipes[2].content}</div>
                                 </div>
-                                <div className="absolute w-[422px] h-[522px] top-[305px] left-[104px] bg-white rounded-[100px] border-[3px] border-solid border-black">
-                                    <img className="absolute w-[385px] h-[476px] top-[20px] left-[25px] object-cover" alt="food_image" src="what.png" />
+                                <div className="absolute w-[422px] h-[522px] top-[305px] left-[104px] bg-white rounded-[10px] border-[3px] border-solid border-black">
+                                    <img className="absolute w-[385px] h-[476px] top-[20px] left-[25px] object-cover" alt="food_image" src={imageUrl} />
                                 </div>
                             </div>
 
